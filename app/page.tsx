@@ -11,6 +11,7 @@ import { InfiniteMovingCards } from "@/components/_ui/infinite-moving-cards";
 import { TypewriterEffectSmooth } from "@/components/_ui/typewriter-effect";
 import { FlipWords } from "@/components/_ui/flip-words";
 import { Boxes } from "@/components/_ui/background-boxes";
+import Section from "@/components/_ui/Section";
 
 
 
@@ -32,14 +33,15 @@ export default function HeroParallaxDemo() {
 
   return(
     <main>
-       <div className="h-[40rem] flex justify-center items-center px-4">
+     
+       <div className="h-10 flex justify-center items-center px-4">
       <div className="text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
         Build
         <FlipWords words={words} /> <br />
         websites with Aceternity UI
       </div>
     </div>
-      <div className="flex flex-col items-center justify-center h-[40rem]  ">
+      {/* <div className="flex flex-col items-center justify-center h-[40rem]  ">
       <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
         The road to freedom starts from here
       </p>
@@ -52,7 +54,7 @@ export default function HeroParallaxDemo() {
           Signup
         </button>
       </div>
-    </div>
+    </div> */}
         <div
       className="h-[400vh] bg-black w-full dark:border dark:border-white/[0.1] rounded-md relative pt-40 overflow-clip"
       ref={ref}
@@ -101,6 +103,14 @@ export default function HeroParallaxDemo() {
         speed="slow"
       />
     </div>
+
+    <Section direction="right">
+      <div className="text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
+        Build
+        <FlipWords words={words} /> <br />
+        websites with Aceternity UI
+      </div>
+        </Section>
 
     <div className="h-96 relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center">
       <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
