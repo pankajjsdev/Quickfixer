@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer utilities{
+    .center-all{
+        @apply flex items-center justify-center
+    }
+    .center-space{
+        @apply flex items-center justify-between
+    }
+}
