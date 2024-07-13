@@ -1,8 +1,9 @@
+import Hero from "@/components/_ui/hero/Hero"
 
 function page() {
     return (
         <main>
-    <h1>Welcome Qucikerfix</h1>
+            <Hero />
         </main>
     )
 }

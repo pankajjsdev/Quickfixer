@@ -6,7 +6,7 @@ import DesktopNav from "./DesktopNav"
 
 function index() {
     return (
-        <header className="fixed top-0 left-0 right-0 bg-primary-hard">
+        <header className=" top-0 left-0 right-0 bg-primary-hard">
             <div className="container py-3 center-space">
                 <Link href={"/"}>
                     <Image
