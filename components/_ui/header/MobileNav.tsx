@@ -49,7 +49,7 @@ function MobileNav() {
 
             <div className="">
                 <motion.div
-                    className={`z-50 flex flex-col justify-between fixed top-0 left-0 h-full bg-primary-hard text-white w-80 p-4 transform transition-all ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'
+                    className={`z-50 flex flex-col items-center justify-between fixed top-0 left-0 h-full bg-primary-hard text-white w-80 p-4 transform transition-all ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'
                         }`}
                     initial={{ x: '-100%' }}
                     animate={{ x: isOpen ? 0 : '-100%' }}
@@ -57,7 +57,7 @@ function MobileNav() {
                     exit={{ x: '-100%' }}
                 >
 
-                    <div className="my-2 space-y-3">
+                    <div className="my-2 space-y-3 w-full">
                         <Image
                             src={"/images/logo/logo.svg"}
                             width={124}
@@ -78,21 +78,13 @@ function MobileNav() {
                                 })
                             }
                         </nav>
-
-
                     </div>
 
-                    <div className="" >
-                        <Button
-                            title="Book Online"
-                            classsName="bg-secondary-yellow1 text-primary-hard"
-
-                        />
-
-                        <Button
-                            title="Get Started"
-                        />
-                    </div>
+                    {/* <div className="" > */}
+                    <Button
+                        title="Get Started"
+                    />
+                    {/* </div> */}
                 </motion.div>
 
                 {isOpen && (

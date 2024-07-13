@@ -1,5 +1,7 @@
+'use client'
 import Link from "next/link"
 import Button from "../button"
+import { usePathname } from "next/navigation"
 
 const headerLinks = [
     {
@@ -8,7 +10,7 @@ const headerLinks = [
     },
     {
         title: 'About us',
-        path: 'aboutus'
+        path: '/aboutus'
     },
     {
         title: 'Service',
@@ -25,35 +27,29 @@ const headerLinks = [
 ]
 
 function DesktopNav() {
-  return (
-    <>
-                    <nav className="space-x-8 mx-8">
-                        {
-                            headerLinks?.map((link, index) => {
-                                return (
-                                    <Link key={index} href={link.path} className="text-white" >
-                                        {
-                                            link.title
-                                        }
-                                    </Link>
-                                )
-                            })
-                        }
-                    </nav>
-
-                  <div className="center-space" >
-                        <Button
-                            title="Login"
-                                classsName="bg-secondary-yellow1 text-primary-hard"
-                        
-                        />
-
-                        <Button
-                            title="Try Whitepace free"
-                        />
-                    </div>
-                </>
-  )
+    const pathname = usePathname()
+    return (
+        <>
+            <nav className="space-x-8 mx-8">
+                {
+                    headerLinks?.map((link, index) => {
+                        return (
+                            <Link key={index} href={link.path} className={`text-white hover:text-secondary-yellow1  ${pathname == link.path ? 'text-secondary-yellow1' : ''}`} >
+                                {
+                                    link.title
+                                }
+                            </Link>
+                        )
+                    })
+                }
+            </nav>
+            <div className="center-space" >
+                <Button
+                    title="Get started"
+                />
+            </div>
+        </>
+    )
 }
 
 export default DesktopNav
