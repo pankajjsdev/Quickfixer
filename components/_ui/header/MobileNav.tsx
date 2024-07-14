@@ -82,7 +82,7 @@ function MobileNav() {
 
                     {/* <div className="" > */}
                     <Button
-                        title="Get Started"
+                        title="Book Schedule"
                     />
                     {/* </div> */}
                 </motion.div>

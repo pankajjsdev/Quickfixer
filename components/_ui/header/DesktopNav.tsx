@@ -45,7 +45,7 @@ function DesktopNav() {
             </nav>
             <div className="center-space" >
                 <Button
-                    title="Get started"
+                    title="Book Schedule"
                 />
             </div>
         </>

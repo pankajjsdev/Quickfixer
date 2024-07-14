@@ -10,7 +10,7 @@ function Hero() {
     <div className={`w-full bg-[url('/images/common/hero-bg.svg')] bg-no-repeat lg:bg-contain`} >
         <div className="container grid grid-cols-1 lg:grid-cols-2 gap-3">
             <div className="space-y-8 text-center lg:text-left">
-                <h1 className="text-5xl lgtext-6xl text-white font-semibold">{HERO_SECTION_CONTEXT.title}</h1>
+                <h1 className="text-5xl lg:text-6xl text-white font-bold">{HERO_SECTION_CONTEXT.title}</h1>
                 <p className="text-lg lg:text-sm text-white font-sans">{HERO_SECTION_CONTEXT.description}</p>
                 <Button
                     title="Get started"
