@@ -14,7 +14,7 @@ function ChoosePlan() {
     };
 
     return (
-        <div className="container">
+        <div className="container my-[6rem]">
             <div className="my-3">
                 <h1 className="text-center text-6xl font-semibold">{CHOOSE_PLANS_CONTEXT.title}</h1>
                 <p className="text-center text-sm font-semibold">{CHOOSE_PLANS_CONTEXT.description}</p>

@@ -7,7 +7,7 @@ import Button from "../button"
 
 function CardInfoRev() {
   return (
-   <div className="w-full py-12 center-all flex-col">
+   <div className="w-full py-12 center-all flex-col my-[6rem]">
         <div className="container grid grid-cols-1 lg:grid-cols-2 items-center gap-3">
             <div className="my-6 lg:my-0">
                 <Image

@@ -5,13 +5,7 @@ import PlaceholderImage from "@/public/images/services/service2.webp"
 
 function WhyChooseUs() {
     return (
-      <>
-      {/* space bar */}
-      <div className="w-ful py-6 my-6"></div>
-
-      
-           <div>
-           <div className="container border p-6">
+           <div className="container border p-6 my-[6rem]">
            <h1 className="text-5xl font-semibold text-center text-pretty mb-3">Why Choose Us?</h1>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 items-center">
                 <Section direction="left">
@@ -41,8 +35,7 @@ function WhyChooseUs() {
                     </Section>
                 </div>
             </div>
-           </div>
-      </>
+        
     )
 }
 

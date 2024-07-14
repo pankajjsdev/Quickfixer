@@ -7,7 +7,7 @@ import Button from "../button"
 
 function CardInfo() {
   return (
-   <div className="w-full py-12 bg-primary-hard center-all flex-col">
+   <div className="w-full py-12 bg-primary-hard center-all flex-col my-[6rem]">
         <div className="container grid grid-cols-1 lg:grid-cols-2 items-center gap-3">
             <div className="space-y-8 text-center lg:text-left">
                 <h1 className="text-5xl lgtext-6xl text-white font-bold">{CARD_INFO_SECTION.title}</h1>

@@ -1,5 +1,5 @@
 export const HERO_SECTION_CONTEXT = {
-    title: 'Get More Done with whitepace',
+    title: 'Get More Done with',
     description: 'Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks',
     image: '/images/common/placeholder.png',
 
@@ -87,7 +87,12 @@ export const WHY_CHOOSE_US_CONTEXT =
 
 
 
-
+    export const BOX_BACKGROUND_CONTEXT = {
+        title: 'Work with Your Favorite Apps Using whitepace',
+        description: 'Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!',
+        image: '/images/common/placeholder.png',
+    
+    }
 
 export const HERO_SECTION_CONTEXT1 = {
     title: 'Welcome to Sparkle & Shine House Cleaning Services!',
