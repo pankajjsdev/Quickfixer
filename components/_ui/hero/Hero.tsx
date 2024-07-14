@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Button from "../button"
 import { HERO_SECTION_CONTEXT } from "@/services/data"
-import PlaceholderImage from "@/public/images/common/placeholder.png"
+import BGHero from "@/public/images/common/bg-hero4.png"
 import { FlipWords } from "../flip-words";
 const words = ["whitepace","amazing", "thorough", "reliable", "professional"];
 
@@ -23,10 +23,11 @@ function Hero() {
                     </div>
                     <div className="my-6 lg:my-0">
                         <Image
-                            src={PlaceholderImage}
+                            src={BGHero}
                             width={824}
                             height={549}
                             alt=""
+                            className="mix-blend-multiply rounded"
                         />
                     </div>
 
