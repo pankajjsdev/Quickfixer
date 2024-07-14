@@ -13,7 +13,7 @@ function CardInfo() {
                 <h1 className="text-5xl lgtext-6xl text-white font-bold">{CARD_INFO_SECTION.title}</h1>
                 <p className="text-lg lg:text-sm text-white font-sans">{CARD_INFO_SECTION.description}</p>
                 <Button
-                    title="Let’s Go"
+                    title="Get a quote"
                     classsName="w-1/2 py-3"
                 />
             </div>

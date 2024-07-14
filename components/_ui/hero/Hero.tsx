@@ -17,7 +17,7 @@ function Hero() {
                         </div>
                         <p className="text-lg lg:text-sm text-white font-sans">{HERO_SECTION_CONTEXT.description}</p>
                         <Button
-                            title="Get started"
+                            title="Get a quote"
                             classsName="w-1/2 py-3"
                         />
                     </div>
