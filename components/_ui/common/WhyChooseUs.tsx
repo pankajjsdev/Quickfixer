@@ -1,5 +1,5 @@
 import { WHY_CHOOSE_US_CONTEXT } from "@/services/data"
-import Section from "../_ui/Section"
+import Section from "../Section"
 import Image from "next/image"
 import PlaceholderImage from "@/public/images/services/service2.webp"
 

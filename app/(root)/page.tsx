@@ -1,9 +1,9 @@
 import Hero from "@/components/_ui/hero/Hero"
-import WhyChooseUs from "@/components/common/WhyChooseUs"
-import CardInfo from "@/components/common/CardInfo"
-import CardInfoRev from "@/components/common/CardInfoRev"
-import ChoosePlan from "@/components/common/ChoosePlan"
-import ServiceForm from "@/components/common/BookForm"
+import WhyChooseUs from "@/components/_ui/common/WhyChooseUs"
+import CardInfo from "@/components/_ui/common/CardInfo"
+import CardInfoRev from "@/components/_ui/common/CardInfoRev"
+import ChoosePlan from "@/components/_ui/common/ChoosePlan"
+import ServiceForm from "@/components/_ui/common/BookForm"
 
 function page() {
     return (
@@ -13,9 +13,6 @@ function page() {
             <CardInfo/>
             <CardInfoRev/>
             <ChoosePlan/>
-            <div className="min-h-screen flex items-center justify-center bg-gray-100">
-            <ServiceForm />
-            </div>
         </main>
     )
 }

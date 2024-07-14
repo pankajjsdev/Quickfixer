@@ -4,7 +4,7 @@ import { CHOOSE_PLANS_CONTEXT } from "@/services/data";
 import PlanTick from "@/public/images/common/plan_tick.svg";
 import Image from "next/image";
 import { useState } from "react";
-import Button from "../_ui/button";
+import Button from "../button";
 
 function ChoosePlan() {
     const [selectedPlan, setSelectedPlan] = useState(null);

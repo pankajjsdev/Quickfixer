@@ -2,7 +2,7 @@ import Image from "next/image"
 
 import { CARD_INFO_SECTION2 } from "@/services/data"
 import PlaceholderImage from "@/public/images/common/placeholder.png"
-import Button from "../_ui/button"
+import Button from "../button"
 
 
 function CardInfoRev() {
