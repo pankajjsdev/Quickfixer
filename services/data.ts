@@ -1,6 +1,8 @@
+import { title } from "process";
+
 export const HERO_SECTION_CONTEXT = {
     title: 'Get More Done with',
-    description: 'Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks',
+    description: 'Simple steps for a clean and healthy environment. We provide a wide range of services for the cleanliness and comfort of your home.',
     image: '/images/common/placeholder.png',
 
 }
@@ -25,15 +27,15 @@ export const WHY_CHOOSE_US_CONTEXT =
     ]
 
     export const CARD_INFO_SECTION = {
-        title: 'Use as Extension',
-        description: 'Use the web clipper extension, available on Chrome and Firefox, to save web pages or take screenshots as notes.',
+        title: 'How our service works?',
+        description: 'Our team is well trained and highly qualified experts in professional cleaning and disinfect services to keep all types of premises clean and safe.',
         image: '/images/common/placeholder.png',
     
     }
 
     export const CARD_INFO_SECTION2 = {
-        title: 'Customise it to your needs',
-        description: 'Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.',
+        title: 'Our cleaning services have no comparison',
+        description: 'Our team is well trained and highly qualified experts in professional cleaning and disinfect services to keep all types of premises clean and safe.',
         image: '/images/common/placeholder.png',
     
     }
@@ -81,15 +83,10 @@ export const WHY_CHOOSE_US_CONTEXT =
             }
         ]
     };
-    
-
-    
-
-
 
     export const BOX_BACKGROUND_CONTEXT = {
-        title: 'Work with Your Favorite Apps Using whitepace',
-        description: 'Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!',
+        title: 'Find reliable cleaners when you need them most',
+        description: 'We are quick, reliable, efficient, trustworthy, accommodating and most of all, knowledgeable about the trade. So contact us today so we can be of your immediate service!',
         image: '/images/common/placeholder.png',
     
     }
@@ -100,3 +97,32 @@ export const HERO_SECTION_CONTEXT1 = {
     image: '/images/common/placeholder.png',
 
 }
+
+const services = [
+    {
+        service: "Rug Cleaning",
+        description: "Our human-centered design is transforming brand experiences."
+    },
+    {
+        service: "Deep Cleaning",
+        description: "Lower your costs and modernize your IT systems."
+    },
+    {
+        service: "Dry Cleaning",
+        description: "Our technology-driven design is transforming brand experiences."
+    },
+    {
+        service: "Carpet Wash",
+        description: "We handle the full lifecycle of software development."
+    },
+    {
+        service: "Soft Cleaning",
+        description: "Secure your networks, devices, and data from threats."
+    },
+    {
+        service: "Steam Cleaning",
+        description: "Ensure the integrity and security of your records."
+    }
+];
+
+

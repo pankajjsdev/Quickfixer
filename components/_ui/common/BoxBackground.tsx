@@ -17,8 +17,8 @@ function BoxBackground() {
                 {BOX_BACKGROUND_CONTEXT.description}
             </p>
             <Button
-                title="Let’s Go"
-                classsName="w-[200px] py-3 z-50"
+                title="Request An Estimate"
+                classsName="py-3 z-50"
             />
         </div>
     )

@@ -10,7 +10,7 @@ const headerLinks = [
     },
     {
         title: 'About us',
-        path: '/aboutus'
+        path: '/about'
     },
     {
         title: 'Service',

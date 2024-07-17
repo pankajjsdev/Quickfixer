@@ -6,18 +6,25 @@ import ChoosePlan from "@/components/_ui/common/ChoosePlan"
 import BoxBackground from "@/components/_ui/common/BoxBackground"
 import Testimonial from "@/components/_ui/common/Testimonial"
 import OurWork from "@/components/_ui/common/OurWork"
+import BlogSection from "@/components/_ui/common/BlogSection"
+
 
 function page() {
     return (
         <main>
             <Hero />
-            <WhyChooseUs/>
-            <CardInfo/>
-            <OurWork/>
+         
             <CardInfoRev/>
+            <WhyChooseUs/>
+        
+            <OurWork/>
+
+            <CardInfo/>
+           
             <ChoosePlan/>
             <BoxBackground/>
             <Testimonial/>
+            <BlogSection/>
          
         </main>
     )

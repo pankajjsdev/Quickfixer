@@ -55,7 +55,7 @@ function ChoosePlan() {
 
                                 <Button
                     title="Let’s Go"
-                    classsName={`w-1/2 py-3 border text-black bg-white border-secondary-yellow1 ${isSelected ? 'bg-primary-soft text-white' : ''} `}
+                    classsName={`py-3 border text-black bg-white border-secondary-yellow1 ${isSelected ? 'bg-primary-soft text-white' : ''} `}
                 />
                             </div>
                         )
