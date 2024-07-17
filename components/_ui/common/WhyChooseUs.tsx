@@ -1,11 +1,12 @@
 import { WHY_CHOOSE_US_CONTEXT } from "@/services/data";
+import { HeadingH1 } from "./Heading";
 
 function WhyChooseUs() {
   return (
-    <>
-      <h1 className="text-3xl  lg:text-5xl font-semibold text-center text-pretty mb-12 mt-[6rem]">
-        Why Choose Us?
-      </h1>
+    <section>
+      <HeadingH1
+        text="Why Choose Us?"
+      />
       <div className="border h-auto py-6 lg:py-52  bg-[url('/images/common/bg-hero2.webp')] bg-no-repeat bg-center bg-cover">
         <div className="flex flex-col space-y-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 ">
@@ -23,7 +24,7 @@ function WhyChooseUs() {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 

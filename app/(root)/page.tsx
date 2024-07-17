@@ -24,7 +24,7 @@ function page() {
             <ChoosePlan/>
             <BoxBackground/>
             <Testimonial/>
-            <BlogSection/>
+            {/* <BlogSection/> */}
          
         </main>
     )
