@@ -7,24 +7,22 @@ import BoxBackground from "@/components/_ui/common/BoxBackground"
 import Testimonial from "@/components/_ui/common/Testimonial"
 import OurWork from "@/components/_ui/common/OurWork"
 import BlogSection from "@/components/_ui/common/BlogSection"
+import OurServices from "@/components/_ui/common/OurServices"
 
 
 function page() {
     return (
         <main>
             <Hero />
-         
             <CardInfoRev/>
+            <OurServices/>
             <WhyChooseUs/>
-        
             <OurWork/>
-
             <CardInfo/>
-           
             <ChoosePlan/>
             <BoxBackground/>
             <Testimonial/>
-            {/* <BlogSection/> */}
+            <BlogSection/>
          
         </main>
     )

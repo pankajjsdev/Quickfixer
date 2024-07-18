@@ -3,7 +3,7 @@ import { HeadingH1 } from "./Heading";
 
 function WhyChooseUs() {
   return (
-    <section>
+    <section className="py-12">
       <HeadingH1
         text="Why Choose Us?"
       />

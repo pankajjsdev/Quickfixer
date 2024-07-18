@@ -26,6 +26,10 @@ const headerLinks = [
         path: '/blog'
     },
     {
+        title: 'Gallery',
+        path: '/gallery'
+    },
+    {
         title: 'Contact',
         path: '/contact'
     }
@@ -46,8 +50,6 @@ function MobileNav() {
                     alt=""
                 />
             </button>
-
-            <div className="">
                 <motion.div
                     className={`z-50 flex flex-col items-center justify-between fixed top-0 left-0 h-full bg-primary-hard text-white w-80 p-4 transform transition-all ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'
                         }`}
@@ -69,7 +71,7 @@ function MobileNav() {
                             {
                                 headerLinks?.map((link, index) => {
                                     return (
-                                        <Link key={index} href={link.path} className={`flex flex-col p-3 rounded border text-xl font-semibold  hover:bg-primary-soft ${pathname == link.path ? 'bg-primary-soft' : ''}`} >
+                                        <Link key={index} href={link.path} className={`flex flex-col p-3 rounded border text-xl font-semibold  hover:bg-primary-soft ${pathname == link.path ? 'bg-primary-soft' : ''}`} onClick={toggleDrawer} >
                                             {
                                                 link.title
                                             }
@@ -96,7 +98,7 @@ function MobileNav() {
                 )}
 
 
-            </div>
+          
         </div>
     )
 }

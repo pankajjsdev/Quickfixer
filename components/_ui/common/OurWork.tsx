@@ -3,9 +3,9 @@ import { HeroParallax } from './hero-parallax'
 
 function OurWork() {
   return (
-    <div>
+    <section className='py-12'>
     <HeroParallax products={products} />
-      </div>
+      </section>
   )
 }
 

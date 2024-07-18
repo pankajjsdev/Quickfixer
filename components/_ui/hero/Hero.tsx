@@ -27,7 +27,7 @@ function Hero() {
                             width={824}
                             height={549}
                             alt=""
-                            className="rounded z-50"
+                            className="rounded z-50  lg:scale-110"
                         />
                     </div>
                 </div>

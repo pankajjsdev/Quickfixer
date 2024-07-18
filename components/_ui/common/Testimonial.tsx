@@ -1,10 +1,11 @@
 import React from 'react'
 import { InfiniteMovingCards } from './infinite-moving-cards';
+import { HeadingH1 } from './Heading';
 
 function Testimonial() {
   return (
     <div className="my-[6rem]rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-     <h1 className='text-center text-6xl font-semibold my-3 underline'>What Our Clients Says</h1>
+     <HeadingH1 text="What Our Clients Says"/>
       <InfiniteMovingCards
         items={testimonials}
         direction="right"

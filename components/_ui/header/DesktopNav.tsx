@@ -21,6 +21,10 @@ const headerLinks = [
         path: '/blog'
     },
     {
+        title: 'Gallery',
+        path: '/gallery'
+    },
+    {
         title: 'Contact',
         path: '/contact'
     }
